@@ -1,7 +1,8 @@
-package com.systemtron.atry
+package com.systemtron.atry.activities
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.systemtron.atry.R
 
 class MainActivity : AppCompatActivity() {
 
