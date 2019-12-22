@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Try</string>
+    <string name="item_id">Item ID:</string>
+    <string name="sentiment">Sentiment:</string>
+    <string name="sentiment_text">Sentiment Text:</string>
+    <string name="submit">Submit</string>
 </resources>

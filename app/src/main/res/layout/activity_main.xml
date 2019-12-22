@@ -4,15 +4,44 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
+    <EditText
+        android:id="@+id/etID"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:hint="@string/item_id"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/etSentiment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/sentiment"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/etSentimentText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/sentiment_text"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/submit" />
+
+    <TextView
+        android:id="@+id/tvAnswer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        tools:text="Positive or Negative" />
 
 </LinearLayout>
